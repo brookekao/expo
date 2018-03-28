@@ -1,0 +1,253 @@
+
+@font-face {
+  font-family: "AcuminProWide-Medium";
+  src: url('../fonts/.26078.otf') format("opentype");
+}
+@font-face {
+  font-family: "AcuminProWide-Bold";
+  src: url('../fonts/.26072.otf') format("opentype");
+}
+@font-face {
+  font-family: "AcuminProWide-Regular";
+  src: url('../fonts/.26086.otf') format("opentype");
+}
+
+.sign-inreset-pass {
+  width               : 100%;
+  min-width           : 600px;
+  height              : 100vh;
+  min-height          : 800px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.sign-inreset-pass .background {
+  background          : rgba(27, 163, 221, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.85;
+}
+.sign-inreset-pass .auth-pane {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 400px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.sign-inreset-pass .auth-pane-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 34px;
+  align-items         : center;
+  height              : 341px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.sign-inreset-pass .auth-pane .pane {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 109px;
+  height              : 232px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sign-inreset-pass .auth-pane .forgot-password {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 140px;
+  height              : auto;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  font-family         : "AcuminProWide-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 50, 79, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.sign-inreset-pass .auth-pane .buttonprimarygreen {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 249px;
+  height              : 44px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.sign-inreset-pass .auth-pane .buttonprimarygreen .background1 {
+  background          : rgba(0, 127, 174, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+}
+.sign-inreset-pass .auth-pane .buttonprimarygreen .label {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "AcuminProWide-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.sign-inreset-pass .auth-pane .reset-your-password {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 180px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  font-family         : "AcuminProWide-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 50, 79, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.sign-inreset-pass .auth-pane .logo2x {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 145px;
+}
+.sign-inreset-pass .auth-pane .logo2x .fill1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 48px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sign-inreset-pass .auth-pane .logo2x .fill3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 48px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+}
+.sign-inreset-pass .auth-pane .logo2x .path1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.sign-inreset-pass .auth-pane .logo2x .fill5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,335 @@
+
+@font-face {
+  font-family: "AcuminProWide-Medium";
+  src: url('../fonts/.26078.otf') format("opentype");
+}
+@font-face {
+  font-family: "AcuminProWide-Bold";
+  src: url('../fonts/.26072.otf') format("opentype");
+}
+@font-face {
+  font-family: "AcuminProWide-Regular";
+  src: url('../fonts/.26086.otf') format("opentype");
+}
+
+.orders-listempty {
+  width               : 100%;
+  min-width           : 600px;
+  height              : 100vh;
+  min-height          : 800px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.orders-listempty .background {
+  background          : rgba(245, 248, 249, 1.0);
+  top                 : 60px;
+  height              : calc(100.00% - 60px);
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.orders-listempty .headerempty {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.orders-listempty .headerempty .headerempty1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.orders-listempty .headerempty .headerempty1 .background1 {
+  background          : rgba(0, 50, 79, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.orders-listempty .headerempty .headerempty1 .title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.orders-listempty .headerempty .headerempty1 .title .hitbox {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.0;
+}
+.orders-listempty .headerempty .headerempty1 .title .e-xpo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "AcuminProWide-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.57px;
+  line-height         : 24.0px;
+}
+.orders-listempty .headerempty .iconaccountprimaryon-dark {
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 8px;
+  top                 : 13px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+}
+.orders-listempty .headerempty .iconaccountprimaryon-dark .shape {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.orders-listempty .headerempty .iconaccountprimaryon-dark .shape1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 38px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.orders-listempty .empty-list {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 303px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.orders-listempty .empty-list-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 215px;
+  align-items         : center;
+  height              : 325px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.orders-listempty .empty-list .no-orders {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 192px;
+  height              : auto;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  font-family         : "AcuminProWide-Regular", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(0, 40, 63, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.orders-listempty .empty-list .dont-worry-well-a {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 265px;
+  height              : auto;
+  width               : 303px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AcuminProWide-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(88, 113, 137, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.orders-listempty .empty-list .graphictablet {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 158px;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  opacity             : 0.8;
+}
+.orders-listempty .empty-list .graphictablet .fill12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 130px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.orders-listempty .empty-list .graphictablet .fill13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 149px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+}
+.orders-listempty .empty-list .graphictablet .fill14 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 44px;
+  height              : 96px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.orders-listempty .empty-list .graphictablet .fill15 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 130px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.orders-listempty .empty-list .graphictablet .fill16 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 130px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.orders-listempty .empty-list .graphictablet .fill17 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 149px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+}
+.orders-listempty .empty-list .graphictablet .fill18 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 44px;
+  height              : 96px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.orders-listempty .empty-list .graphictablet .fill322 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
